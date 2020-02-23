@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" style = "background-color: lightgray">
+<html lang="en" style="background-color: lightgray">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,59 +15,77 @@
 
 <body>
     <header>
-        <nav class="navbar py-0" style = "border-bottom: 2px solid gray">
+        <nav class="navbar py-0" style="border-bottom: 2px solid gray">
             <div class="container-fluid">
-                <div class="navbar-text px-3" style = "color: white; font-size: 22px; background-color: #4aaaa5">
+                <div class="navbar-text px-3" style="color: white; font-size: 22px; background-color: #4aaaa5">
                     Brian Monteverde
                 </div>
                 <div class="nav navbar-nav navbar-expand navbar-right">
                     <div>
-                        <a class = "nav-link px-3 py-2" href="https://bmonteve.github.io/Portfolio-Responsive/index.html">About</a>
+                        <a class="nav-link px-3 py-2"
+                            href="https://bmonteve.github.io/Portfolio-Responsive/index.html">About</a>
                     </div>
                     <div>
-                        <a class = "nav-link px-3 py-2" href="https://bmonteve.github.io/Portfolio-Responsive/portfolio.html">Portfolio</a>
+                        <a class="nav-link px-3 py-2"
+                            href="https://bmonteve.github.io/Portfolio-Responsive/portfolio.html">Portfolio</a>
                     </div>
-                    <div >
-                        <a class = "nav-link px-3 py-2" href="https://bmonteve.github.io/Portfolio-Responsive/contact.html">Contact</a>
+                    <div>
+                        <a class="nav-link px-3 py-2"
+                            href="https://bmonteve.github.io/Portfolio-Responsive/contact.html">Contact</a>
+                    </div>
+                    <div>
+                        <a class="nav-link px-3 py-2" href="Web-Developer-Resume.pdf" target="_blank">Resume</a>
+                    </div>
+                    <div>
+                        <a class="nav-link px-3 py-2" target="_blank"
+                            href="https://www.linkedin.com/in/brian-monteverde-8a6a32178">LinkedIn Profile</a>
+                    </div>
+                    <div>
+                        <a class="nav-link px-3 py-2" target="_blank" href="https://github.com/bmonteve">GitHub
+                            Profile</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-<div class="wrapper w-100 p-3" style = "background: lightgray">
-    <div class="row bio mx-3" style = "background-color: white;">
-        <div class="col-md-12">
-            <div class="row px-3 pt-3">
-                <p class = "m-0" style = "color: #4aaaa5; font-size: 22px">Contact</p>
-                <hr class = "m-0" style = "display: block; background-color: lightgray; clear: both; height: 1px; width: 100%; border: 0;">
+    <div class="wrapper w-100 p-3" style="background: lightgray">
+        <div class="row bio mx-3" style="background-color: white;">
+            <div class="col-md-12">
+                <div class="row px-3 pt-3">
+                    <p class="m-0" style="color: #4aaaa5; font-size: 22px">Contact</p>
+                    <hr class="m-0"
+                        style="display: block; background-color: lightgray; clear: both; height: 1px; width: 100%; border: 0;">
+                </div>
+                <form class="pb-3">
+
+                    <div class="row px-3">
+                        <label class="required py-2 pr-2 m-0" for="email">Email</label><br />
+                        <textarea id="email" class="form-control" placeholder="example@gmail.com"
+                            type="text"></textarea><br />
+                    </div>
+
+                    <div class="row px-3">
+                        <label class="required py-2 pr-2 m-0" for="name">Name</label><br />
+                        <textarea id="name" class="form-control" placeholder="Name" type="text"></textarea><br />
+                    </div>
+                    <div class="row px-3 pb-3">
+                        <label for="my-textarea">Message</label><br>
+                        <textarea id="my-textarea" class="form-control" rows="15" cols="113"
+                            placeholder="Write Your Message"></textarea>
+                    </div>
+                    <input id="submit_button" type="submit" value="Submit" />
+                </form>
             </div>
-            <form class = "pb-3">
 
-                <div class="row px-3">
-                    <label class="required py-2 pr-2 m-0" for="email">Email</label><br />
-                    <textarea id="email" class="form-control" placeholder="example@gmail.com" type="text"></textarea><br/>
-                </div>
-
-                <div class="row px-3">
-                    <label class="required py-2 pr-2 m-0" for="name">Name</label><br />
-                    <textarea id="name" class="form-control" placeholder="Name" type="text"></textarea><br />
-                </div>
-                <div class="row px-3 pb-3">
-                    <label for="my-textarea">Message</label><br>
-                    <textarea id="my-textarea" class="form-control" rows="15" cols="113" placeholder="Write Your Message"></textarea>
-                </div>
-                <input id="submit_button" type="submit" value="Submit" />
-            </form>
         </div>
-        
     </div>
-</div>
 
-<footer class="footer mt-auto py-3 bg-dark" style = "border-top: 8px solid #4aaaa5">
-    <div class="container">
-      <p class="text-muted text-center m-0">© Copyright</p>
-    </div>
-</footer>
+    <footer class="footer fixed-bottom mt-auto py-3 bg-dark" style="border-top: 8px solid #4aaaa5">
+        <div class="container">
+            <p class="text-muted text-center m-0">© Copyright</p>
+        </div>
+    </footer>
 </body>
+
 </html>
