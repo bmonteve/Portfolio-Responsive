@@ -15,12 +15,12 @@
 
 <body>
     <header>
-        <nav class="navbar navbar navbar-dark bg-dark p-0" style="border-bottom: 2px solid gray">
+        <nav class="navbar navbar navbar-dark bg-dark p-0">
             <div class="container-fluid">
                 <div class="navbar-text px-3" style="color: white; font-size: 22px; background-color: #4aaaa5">
                     Brian Monteverde
                 </div>
-                <div class="nav navbar-nav navbar-expand navbar-right">
+                <div id="nav-links" class="nav navbar-nav navbar-expand navbar-right">
                     <div>
                         <a class="nav-link px-3 py-2"
                             href="https://bmonteve.github.io/Portfolio-Responsive/index.html">About</a>
@@ -33,15 +33,17 @@
                         <a class="nav-link px-3 py-2"
                             href="https://bmonteve.github.io/Portfolio-Responsive/contact.html">Contact</a>
                     </div>
-                    <div>
-                        <a class="nav-link px-3 py-2" href="Web-Developer-Resume.pdf" target="_blank">Resume</a>
-                    </div>
-                    <div>
-                        <a class="nav-link px-3 py-2" target="_blank"
-                            href="https://www.linkedin.com/in/brian-monteverde-8a6a32178">LinkedIn</a>
-                    </div>
-                    <div>
-                        <a class="nav-link px-3 py-2" target="_blank" href="https://github.com/bmonteve">GitHub</a>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "color: white">
+                            Profiles
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="nav-link px-3 py-2" style = "color: black" href="Web-Developer-Resume.pdf" target="_blank">Resume</a>
+                            <a class="nav-link px-3 py-2" style = "color: black" target="_blank"
+                                href="https://www.linkedin.com/in/brian-monteverde-8a6a32178">LinkedIn</a>
+                            <a class="nav-link px-3 py-2" style = "color: black" target="_blank" href="https://github.com/bmonteve">GitHub</a>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -122,6 +124,16 @@
             <p class="text-muted text-center m-0">© Copyright</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
