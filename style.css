@@ -28,6 +28,8 @@
 }
 
 @media screen and (max-width: 980px){
+    
+
     .wrapper{
         padding: 50px;
     }
@@ -81,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 473px){
+@media screen and (min-width: 473px){
     .container-fluid a{
         color: gray;
     }
@@ -108,6 +110,10 @@
         justify-content: center;
         text-align:center;
        
+    }
+
+    a{
+        font-size: 8px;
     }
 }
 
