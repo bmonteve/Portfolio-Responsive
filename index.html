@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: lightgray">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me Section</title>
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
-<body class>
+<body>
     <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="navbar-text px-3" style="color: white; font-size: 22px; background-color: #4aaaa5">
+        <nav class="navbar">
+            <!-- <div class="navbar-text px-3" style="color: white; font-size: 22px">
                 Brian Monteverde
-            </div>
-                <div id="nav-links" class="nav navbar-nav navbar-expand navbar-right">
-                    <div class="dropdown" >
+            </div> -->
+            <div id="nav-links" class="nav navbar-nav navbar-expand mx-auto">
+                <!-- <div class="dropdown" >
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "color: white">
                             Profiles
@@ -32,25 +32,27 @@
                                 href="https://www.linkedin.com/in/brian-monteverde-8a6a32178">LinkedIn</a>
                             <a class="nav-link px-3 py-2" style = "color: black" target="_blank" href="https://github.com/bmonteve">GitHub</a>
                        </div>
-                    </div>
-                    <div>
-                        <a class="nav-link"
-                            href="https://bmonteve.github.io/Portfolio-Responsive/index.html">About</a>
-                    </div>
-                    <div>
-                        <a class="nav-link"
-                            href="https://bmonteve.github.io/Portfolio-Responsive/portfolio.html">Portfolio</a>
-                    </div>
-                    <div>
-                        <a class="nav-link"
-                            href="https://bmonteve.github.io/Portfolio-Responsive/contact.html">Contact</a>
-                    </div>
+                    </div> -->
+                <a class="nav-link" href="https://bmonteve.github.io/Portfolio-Responsive/about.html">About</a>
+
+                <a class="nav-link" href="https://bmonteve.github.io/Portfolio-Responsive/portfolio.html">Portfolio</a>
+
+
+                <a class="nav-link" href="https://bmonteve.github.io/Portfolio-Responsive/contact.html">Contact</a>
+
             </div>
         </nav>
     </header>
 
-    <div class="container-fluid p-3" style="background: lightgray">
-        <div class="row bio w-100 m-auto" style="background-color: white;">
+    <div class="container-fluid">
+
+        <img id="headshot" src="./images/IMG_1503.jpeg" id="proPic" alt="Brian Profile Picture" width="250" height="275"
+            radius="100">
+        <h1 id="name">Brian Monteverde</h1>
+        <h2 id="title">Full Stack Web Developer</h2>
+    </div>
+    <!-- <div class="container-fluid">
+        <div class="row bio w-100 m-auto">
             <div class="col-md-12">
                 <div class="row px-3 pt-3">
                     <p class="m-0" style="color: #4aaaa5; font-size: 22px">About Me</p>
@@ -83,12 +85,12 @@
 
         </div>
     </div>
-
-    <footer class="footer fixed mt-auto py-3 bg-dark" style="border-top: 8px solid #4aaaa5">
+-->
+    <!-- <footer class="footer fixed-bottom mt-auto py-3 bg-dark" style="border-top: 8px solid #4aaaa5">
         <div class="container">
             <p class="text-muted text-center m-0">© Copyright</p>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -99,7 +101,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
 </body>
 
 </html>

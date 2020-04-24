@@ -3,17 +3,63 @@
         color: gray;
     }
 
-    .bio{
+    .container-fluid{
+        padding: 32px;
+        width: 100vw;
+        text-align: center;
     }
 
+    .bio{
+        width: 75%;
+        margin: auto;
+        padding: 24px;
+        background-color: rgba(0, 0, 0, .75);
+        color: white;
+        text-align: left;
+        overflow: auto;
+    }
+
+    #name{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 48px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    #title{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .nav-link{
+        padding: 16px;
+        margin: 0px 32px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    body{
+        background-image: url("images/Galaxy-Background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 100%;
+        min-height: 100vh;
+    }
+
+    p{
+       margin: 0px;
+    }
+
+    
     a{
         padding: 16px;
     }
-    .nav-link{
-        
-    }
+    
     .navbar{
-        padding: 0px 16px;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, .75);
+        text-align: center;
     }
 
     .img-fluid{
@@ -37,7 +83,7 @@
     
     }
 }
-
+/* 
 @media screen and (min-width: 708px){
     
 
@@ -46,7 +92,8 @@
     }
     
     .navbar .nav-link{
-        padding: 8px 16px;
+        padding: 16px;
+        color: white;
     }
 
     .container-fluid a{
@@ -128,7 +175,7 @@
     a{
         font-size: 8px;
     }
-}
+} */
 
 
 a{
@@ -140,9 +187,22 @@ a{
     color: black;
     font-size: 14px;
 }
-img{
+
+#headshot{
     border-radius: 100%;
-    margin: 0px 16px 16px 0px;
+    border: 10px double white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .75);
+}
+
+#aboutBio{
+    border: 10px double white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .75);
+    object-position: 40% 0px;
+    object-fit: cover;
+    width: 200px;
+    height: 275px;
+    margin: 0px 24px 18px 0px;   
+    float: left;
 }
 
 #Hang{
