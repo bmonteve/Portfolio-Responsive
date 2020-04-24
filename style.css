@@ -18,6 +18,12 @@
         text-align: left;
         overflow: auto;
         margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .form-control{
+        background-color: white;
+        border: black;
     }
 
     #name{
