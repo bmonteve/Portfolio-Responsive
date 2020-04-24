@@ -17,6 +17,7 @@
         color: white;
         text-align: left;
         overflow: auto;
+        margin-top: 48px;
     }
 
     #name{
